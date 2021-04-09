@@ -1,0 +1,22 @@
+{
+    "name": "matveyev/task01",
+    "authors": [
+        {
+            "name": "MDMatveev",
+            "email": "michael-matveyev@mail.ru"
+        }
+    ],
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
